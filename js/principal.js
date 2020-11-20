@@ -1,20 +1,6 @@
-var titulo = document.querySelector(".titulo");
+var titulo = document.getElementsByClassName("titulo");
 titulo.textContent = "Aparecida Nutricionista";
 
-var paciente = document.querySelector("#primeiro-paciente");
+console.log(paciente);
+var paciente = document.getElementById("primeiro-paciente");
 
-var tdPeso = paciente.querySelector(".info-peso");
-var peso = tdPeso.textContent;
-
-var tdAltura = paciente.querySelector(".info-altura");
-var altura = tdAltura.textContent;
-
-var imc = peso / (altura * altura); // 100 / 2.0 x 2.0 = 100 / 4 =>>>>>>> 25
-
-console.log(imc);
-
-/*console.log(paciente); // tr
-console.log(tdPeso); // td que tem o peso
-console.log(peso); //Obter 100
-console.log(tdAltura); 
-console.log(altura); */
