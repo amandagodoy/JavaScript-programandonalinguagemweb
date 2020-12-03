@@ -2,7 +2,7 @@ var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("click", function(event) {
     event.preventDefault();
 
-    var form = document.querySelector("#form-adiciona");
+    var form = document.querySelector("#form-add");
 
     var paciente = obtemPacienteDoFormulario(form);
 
